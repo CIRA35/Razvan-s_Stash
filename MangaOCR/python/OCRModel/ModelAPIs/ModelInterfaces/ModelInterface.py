@@ -1,6 +1,6 @@
 from abc import ABC
 from numpy.typing import NDArray
-from OCRModel.ModelAPIs.Utils.DataRepresentation import TextPrediction
+from python.OCRModel.ModelAPIs.Utils.DataRepresentation import TextPrediction
 from typing import Iterable
 class ModelInterface(ABC):
     def get_model_info(self) -> str:
